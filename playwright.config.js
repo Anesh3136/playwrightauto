@@ -35,7 +35,12 @@ export default defineConfig({
 
   /* Configure projects for major browsers */
   projects: [
+
     {
+      name: 'anesh',
+      testDir :'./saucelab',
+    },
+    {  
       name: 'chromium',
       use: { ...devices['Desktop Chrome'] },
     },
